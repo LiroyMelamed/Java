@@ -7,7 +7,7 @@ Class TwinPrimes{
         if (num <= 1) return false;
         if (num = 2 || num = 3) return true;
         if (num % 2 == 0 || num % 3 == 0) return false;
-        for ( int i = 5; i <= Math.sqrt(num); i=i+6;){
+        for ( int i = 5; i <= Math.sqrt(num); i=i+6){
             if(num % i == 0 || num % (i+2) ==0) return false;
         }
         return Prime;
@@ -15,7 +15,7 @@ Class TwinPrimes{
 
     public static int DualPrime(int num){
         for(int i = 3 ; i < num ; i++){
-            if(IsPrime(i) && IsPrime(i+2){
+            if(IsPrime(i) && IsPrime(i+2)){
                 System.out.print("(%d, %d)\n", i, i+2);
             }
     }
