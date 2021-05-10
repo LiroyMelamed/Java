@@ -8,7 +8,6 @@ class GeussNumber {
   int max = 100;
   int min = 0;
   int number = 50;
-  int num = 50;
   int MC = 1;
   while (c) {
    System.out.println(number);
@@ -25,13 +24,11 @@ class GeussNumber {
    }
    if (n == 2) {
     min=number;
-    num=number;
     number = (max + min)/2;
     MC++;
    }
    if (n == 3) {
     max = number;
-    num = min;
     number = (max + min) / 2;
     MC++;
    }
