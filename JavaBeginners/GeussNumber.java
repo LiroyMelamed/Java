@@ -1,4 +1,3 @@
-package JavaBeginners;
 
 import java.util.Scanner;
 
