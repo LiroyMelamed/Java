@@ -1,8 +1,7 @@
-package JavaMath;
 
 class Parabola {
 
-	public static void Parabola(double a, double b, double c) {
+	public static void Parabola(double a, double b, double c){
 		if (b * b < 4 * a * c) {
 			System.out.println(a + "X^2" + b + "X" + c + "= 0");
 			System.out.println("Error, no real answers");
