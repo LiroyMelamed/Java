@@ -2,7 +2,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-class TwinPrimes {
+public class TwinPrimes {
 
     public static boolean IsPrime(int num) {
         boolean Prime = true;

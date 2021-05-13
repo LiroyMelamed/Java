@@ -5,6 +5,7 @@ class IsFormula {
  public static boolean isFormula(String s) {
   int[] freq = new int[2];
   String S = s;
+  boolean F = true;
   for (int i = 0; i < (s.length()); i++) {
    if (S.charAt(i) == '(')
     freq[0]++;
@@ -12,14 +13,13 @@ class IsFormula {
     freq[1]++;
    if (S.charAt(i) == '*' || S.charAt(i) == '+' || S.charAt(i) == '-' || S.charAt(i) == '/') {
     if (S.charAt(i--) == '*' || S.charAt(i--) == '+' || S.charAt(i--) == '-' || S.charAt(i--) == '/') {
-     return false;
+      F = false;
     }
    }
   }
   if (freq[0] != freq[1])
-   return false;
-  else
-   return true;
+   F = false;
+  return F;
  }
 
  public static double assign(String s, int x) {
@@ -70,7 +70,7 @@ class IsFormula {
 
  public static void main(String[] args) {
   String s = "((x+5)*(x-5))";
-  // System.out.println(isFormula(s));
+  System.out.println(isFormula(s));
   System.out.println(assign(s, 2));
  }
 
