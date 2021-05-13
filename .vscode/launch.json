@@ -6,6 +6,13 @@
  "configurations": [
   {
    "type": "java",
+   "name": "Launch PerfectNumbers",
+   "request": "launch",
+   "mainClass": "PerfectNumbers",
+   "projectName": "Java_31b76bfb"
+  },
+  {
+   "type": "java",
    "name": "Launch PrimeDivide",
    "request": "launch",
    "mainClass": "PrimeDivide",
