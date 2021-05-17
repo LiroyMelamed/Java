@@ -1,7 +1,7 @@
 
 class Parabola {
 
-	public static void Parabola(double a, double b, double c){
+	public static void Para(double a, double b, double c){
 		if (b * b < 4 * a * c) {
 			System.out.println(a + "X^2" + b + "X" + c + "= 0");
 			System.out.println("Error, no real answers");
@@ -27,7 +27,7 @@ class Parabola {
 			double a = MyConsole.readDouble("Please enter a= ");
 			double b = MyConsole.readDouble("Please enter b= ");
 			double c = MyConsole.readDouble("Please enter c= ");
-			Parabola(a, b, c);
+			Para(a, b, c);
 		}
 	}
 }
