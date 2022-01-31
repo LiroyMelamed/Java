@@ -1,6 +1,6 @@
 # Java
 
-<img src='https://he.wikipedia.org/wiki/Java_(פלטפורמת_תוכנה)#/media/קובץ:Java_Logo.svg.png'>
+<img src='https://upload.wikimedia.org/wikipedia/he/0/05/Java_Logo.svg.png'>
 
 - My Java projects were written during my degree in computer science.
 
