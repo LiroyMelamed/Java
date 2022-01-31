@@ -1,2 +1,3 @@
 # Java
-My Java projects 
+
+- My Java projects was written during my degree in computer science.
